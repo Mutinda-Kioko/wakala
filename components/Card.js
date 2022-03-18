@@ -20,14 +20,14 @@ function Card() {
       <View style={styles.upper}>
         <Image
         style={styles.tinyLogo}
-        source={require('./images/blockie.png')}
+        source={require('../images/blockie.png')}
         />
       <Text style={styles.deposit}>Deposit Request</Text>
       <View style={styles.leftRate}>
         <View style={{display:'flex', flexDirection: 'row',alignItems: 'center',}}>
         <Image
         style={styles.rating}
-        source={require('./images/Rating.png')}
+        source={require('../images/Rating.png')}
         />
         <Text style={styles.rate}>
           4.5

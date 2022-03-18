@@ -17,7 +17,7 @@ const HideCard = () => {
         <View style={styles.hide}>
             <Image
             style={styles.hideIcon}
-            source={require('./images/Vector.png')}
+            source={require('../images/Vector.png')}
             />
             <Text style={styles.hideText}>Hide</Text>
         </View>
